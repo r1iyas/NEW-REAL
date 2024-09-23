@@ -1,0 +1,833 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+header{
+    width: 100%;
+    height: 24vh;
+    display: flex;
+    position: fixed;
+    background-color: white;
+    z-index: 15;
+}
+.logo{
+    width: 277px;
+    height: 161px;
+}
+.hdr{
+    width: 82%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    width: 100%;
+    height: 47%;
+    background-color:white;
+}
+.phone{
+    width: 1.5rem;
+    padding: 6px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-top: 1.7rem;
+}
+.Call p{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.mail{
+    width: 1.5rem;
+    padding: 6px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-top: 1.7rem;
+}
+.pin{
+    width: 1.5rem;
+    padding: 6px;
+    background-color: grey;
+    border-radius: 50%;
+    margin-top: 1.7rem;
+}
+.one{
+    display:flex;
+    margin-left: 500px;
+    margin-top: -10px;
+}
+.two{
+    display:flex;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+.three{
+    display:flex;
+    margin-left: 100px;
+    margin-top: -10px;
+}
+.twohundred{
+    font-family:  Arial, monospace;
+    font-size: 14px; 
+    font-weight: 400; 
+    line-height: 21px; 
+    color: rgb(78, 75, 102);
+}
+.click{
+    font-family:  Arial, monospace;
+    font-size: 15px; 
+    font-weight: 400; 
+    line-height: 21px; 
+    color: rgb(78, 75, 102);
+}
+.chicagoland{
+    font-family:  Arial, monospace;
+    font-size: 15px; 
+    font-weight: 400; 
+    line-height: 21px; 
+    color: rgb(78, 75, 102);
+}
+.main2{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 48%;
+}
+.main2 ul{
+    display: flex;
+    gap: 2.6rem;
+    align-items: center;
+    list-style-type: none;
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+li a{
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.contactus{
+    background-color: rgb(174,32,36);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    margin-left: 150px;
+    padding: 20px 50px;
+    border: none;
+}
+.moon img{
+    width: 65px;
+}
+.secondpage{
+    padding-top: 24vh;
+    width: 100%;
+    height: 134vh;
+    display: flex;
+}
+.firstdiv{
+    width: 63%;
+    height: 100%;
+    background-color: white;
+    padding-left: 7rem;
+    margin-top: 10rem;
+}
+.firstdiv .trusted{
+    font-family: font2, Impact, sans-serif;
+    font-size: 55px;
+    color: rgb(26, 26, 26);
+}
+.real{
+    font-family: Arial, sans-serif;
+    font-size: 22px;
+    line-height: 30px;
+    color:  rgb(78, 75, 102);
+}
+#getanestimate{
+    background-color: rgb(174,32,36);
+    color: white;
+    font-family: arial,monospace;
+    border: 0;
+    padding: 18px 33px;
+}
+.tenplus{
+    display: flex;
+   font-family: Arial, sans-serif;
+   font-size: 16px;
+   color: rgb(78, 75, 102);
+   padding-top: 75px;
+}
+.onezeroplus{
+    font-family:  Arial, monospace;
+    font-size: 49px;
+    font-weight: 700;
+    color: rgb(26, 26, 26);
+    line-height:58.8px;
+}
+.happy{
+    margin-left: 40px;
+}
+.reviews{
+    margin-left: 40px;
+}
+.seconddiv{
+    background-color:rgb(12,21,42);
+    width: 37%;
+    height: 100%;
+}
+.waves{
+    float: right;
+}
+.ladder{
+    position: absolute;
+    width: 600px;
+    left: 775px;
+    top: 300px;
+    
+}
+.ourthirdpage{
+    width: 100%;
+    height: 1000px;
+    background-color: white;
+    position: relative;
+}
+.our{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+    color: rgb(174, 32, 36);
+    letter-spacing: 2px;
+    
+}
+.residential{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    font-size:  49px;
+    line-height: 49px;
+    color: rgb(26, 26, 26);
+    margin-top: -8px;
+    
+}
+.realdeal{
+    font-family: Arial;
+    text-align: center;
+    color: rgb(78, 75, 102);
+    font-size: 20px;
+    line-height: 23px;  
+    margin-top: -25px;
+}
+.ourpainting{
+    padding-top: 80px;
+    
+}
+.sonehome{
+    width: 50px
+    
+}
+.stwopaint{
+    width: 50px;
+}
+.sthreefence{
+    width: 50px;
+}
+.sfourtile{
+    width: 50px;
+}
+.ssshome{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+
+}
+.getaquote{
+    background-color: rgb(174,32,36);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    margin-left: 650px;
+    margin-top: 80px;
+    padding: 20px 60px;
+    border: none;   
+}
+.interior{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.enhance{
+    font-family:'font1', Arial, sans-serif; 
+    font-size:  1.1rem;
+    line-height: 1.5em;
+    color: rgb(92, 91, 98);
+    letter-spacing: 1px;
+    margin: 0;  
+
+}
+.fourthpage{
+    width: 100%;
+    height: 125vh;
+    background-color: white;
+    display: flex;
+    
+}
+.rotatediv{
+    width: 550px;
+    height: 650px;
+    rotate: 15deg;   
+    background-color: rgb(186,186,186);
+    margin-left: 200px;
+    margin-top: 100px;
+}
+.woodhome{
+    width: 550px;
+    height: 650px;
+    rotate: -15deg;
+}
+.featured{
+    
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.fe-service{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19.2px;
+    color: rgb(174, 32, 36);
+    letter-spacing: 2px;
+    margin: 0;
+    
+}
+.ex-home-pa{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    color: rgb(26, 26, 26);
+    letter-spacing: 1px;
+    margin: 0;
+}
+.when-it{
+    font-family:'font1', Arial, sans-serif; 
+    font-size: 1rem;
+    line-height: 1.5em;
+    color: rgb(78, 75, 102);
+    letter-spacing: 1px;
+    margin: 0;     
+}
+.get-an-estimate{
+    background-color: rgb(174,32,36);
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 16px;
+    padding: 20px 50px;
+    border: none;
+}
+.fifthpage{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(/img/why-1.jpg);
+    background-attachment: fixed;
+    
+   
+}
+.half-blur{
+    width: 100vw;
+    height: 100vh;
+    
+}
+.experiance{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 19.2px;
+    color: white;
+    letter-spacing: 5px;  
+}
+.whychoose{
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    font-size: 45px;
+    font-weight: 500;
+    line-height: 19.2px;
+    color: white;
+    letter-spacing: 2px;   
+}
+.westand{
+    font-family:'font1', Arial, sans-serif; 
+    font-size:  1.1rem;
+    line-height: 1.5em;
+    color: rgb(250, 251, 252);
+    letter-spacing: 1px;
+    margin: 0;    
+}
+.star{
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    padding: 30px;
+
+}
+.fifth-subdiv{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 85px;
+    
+}.fifth-second-subdiv{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    
+    
+}
+.customer{
+    font-family: font2, Impact, sans-serif;
+    font-size: 23px;
+    font-weight: 500;
+    line-height: normal;
+    color: rgb(255, 255, 255);
+    letter-spacing: 1px;
+}
+.our-priority{
+    font-family: font1, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    color: rgb(250, 251, 252);
+    letter-spacing: 1px;
+    
+}
+.sixthpage{
+    width:100vw;
+    height: 180vh;
+    background-color:white;
+    
+}
+.additional{
+    font-family: font2, Arial, monospace;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    color:  rgb(174, 32, 36);
+    text-align: center;
+    padding-top: 100px;   
+}
+.allour{
+    font-family: font2, Impact, sans-serif;
+    font-size: 40px;
+    Font-weight: 900;
+    Line-height: 49px;
+    color: rgb(26, 26, 26);
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 0;  
+}
+.atreal{
+    font-family: font1, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(78, 75, 102);
+    text-align: center;
+    
+}
+.ione{
+    width: 40px;
+    height: 40px;
+    
+}
+.sixthsubtwo{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    row-gap: 100px;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+.sixthsubtwo div{
+    
+    text-align: center;
+
+}
+.drywall{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.experience-seamless{
+    font-family:'font1', Arial, sans-serif; 
+    font-size:  16px;
+    line-height: 1.5em;
+    color: rgb(92, 91, 98);
+    letter-spacing: 1px;
+    margin: 0;
+}
+.make-an-appointment{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 16px ;
+    background-color: rgb(174,32,36);
+    padding: 19px 50px;
+    border: none;
+    margin-left: 40rem;
+    margin-top: 90px;
+}
+.seventhpage{
+    width: 100vw;
+    height: 145vh;
+    background-color:white;
+    display: flex;
+}
+.featured-service{
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(174, 32, 36);
+    margin: 0;
+    letter-spacing: 4px;
+
+}
+.kitchen-and{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(26,26,26);
+    font-size: 40px;
+    font-weight: 400px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding-bottom: 15px;
+    
+}
+.kithchens-are{
+    
+    font-family:'font1', Arial, sans-serif; 
+    font-size:  18px;
+    line-height: 1.5em;
+    color: rgb(92, 91, 98); 
+    margin: 0;
+    
+}
+.seventh-sub{
+    width: 45%; 
+    padding-left: 120px;
+    padding-top: 100px;
+
+}
+.seventh-sub2{
+    width: 55%;
+    display: flex;
+}
+.button-seven{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 16px ;
+    background-color: rgb(174,32,36);
+    padding: 19px 50px;
+    border: none;
+    margin-top: 30px;
+}
+.kitchen-ten{
+    width: 550px;
+    height: 700px;
+    position: relative;
+    padding-left: 100px;
+    
+}
+
+.bathroom-home{
+    background-image:url(img/bathroom-home1.jpg);
+    width: 340px;
+    height: 340px;
+    position: absolute;
+    margin-top: 280px;   
+}
+.white-background{
+    width: 305px;
+    height: 305px;
+    background-color: white;
+    margin-top: -80px;
+    margin-left: 18px;
+}
+.white-background p{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: 700;
+    font-size: 100px;
+    
+}
+.years-years {
+    font-size: 20px;
+    
+    
+}
+.eigthpage{
+    width: 100vw;
+    height: 90vh;
+    background-color: white;
+    
+}
+.faqs{
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(174, 32, 36);
+    margin: 0;
+    letter-spacing: 4px; 
+    text-align: center;
+    
+}
+.frequently{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(26,26,26);
+    font-size: 40px;
+    font-weight: 400px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-bottom: 15px;
+    text-align: center;
+}
+.do-we{
+    width: 50%;
+    float: left;
+    padding-top: 10px;
+}
+.when-is{
+    width: 50%;
+    float: right;
+    padding-top: 10px;
+}
+.do-we-need{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    color: rgb(26, 26, 26);
+    letter-spacing: 1px;
+    margin: 50px;
+    margin-left: 130px;
+
+}
+.whenisit{
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19.2px;
+    color: rgb(26, 26, 26);
+    letter-spacing: 1px;
+    margin: 50px;
+}
+.ninth-page{
+    width: 95vw;
+    height: 125vh;
+    background-color:white;
+}   
+.testimonials{
+    font-size: 15px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(174, 32, 36);
+    margin: 0;
+    letter-spacing: 4px; 
+    text-align: center;
+}
+.what-our{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(26,26,26);
+    font-size: 40px;
+    font-weight: 400px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.we-dontjust{
+    font-family:'font1', Arial, sans-serif; 
+    font-size:  17px;
+    line-height: 1.5em;
+    color: rgb(92, 91, 98);
+    letter-spacing: 1px;
+    margin: 0;
+    text-align: center;
+}
+.ninth-sub{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    
+}
+.knowledgeable{
+    font-family: font2, Impact, sans-serif;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 30px;
+    color: rgb(26, 26, 26);
+    letter-spacing: 1px;
+}
+.my-rental{
+    font-family:'font1', Arial, sans-serif; 
+    font-size:  16px;
+    line-height: 1.5em;
+    color: rgb(92, 91, 98);
+    letter-spacing: 1px;
+    margin: 0;
+}
+.my-real{
+    font-family:'font1', Arial, sans-serif; 
+    font-size:  16px;
+    line-height: 1.5em;
+    color: rgb(92, 91, 98);
+    letter-spacing: 1px;
+    margin: 0;
+}
+.my-realtwo{
+    font-family:'font1', Arial, sans-serif; 
+    font-size:  16px;
+    line-height: 1.5em;
+    color: rgb(92, 91, 98);
+    letter-spacing: 1px;
+    margin: 0;
+}
+.mark {
+    
+    font-family: font1, Arial, sans-serif;
+    font-size: 25px;
+    line-height: 24px;
+    color: rgb(26, 26, 26);
+    
+   
+}
+.bree{
+    font-family: font1, Arial, sans-serif;
+    font-size: 25px;
+    line-height: 24px;
+    color: rgb(26, 26, 26);
+}
+.julie{
+    font-family: font1, Arial, sans-serif;
+    font-size: 25px;
+    line-height: 24px;
+    color: rgb(26, 26, 26);
+}
+.ninth-one{
+    margin-bottom: 80px;
+    margin-left: 50px;
+}
+.read-more{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 16px ;
+    background-color: rgb(174,32,36);
+    padding: 19px 50px;
+    border: none;
+    margin-left: 40rem;
+    margin-top: 90px;
+}
+.tenthpage{
+    width: 100vw;
+    height: 110vh;
+}    
+.red{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(174,32,36);
+    display: flex;
+}
+.dark-color{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(26,26,26);
+    display: flex;
+}
+.need{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 42px;
+    font-weight: 400px;
+    letter-spacing: 2px;
+    margin: 0;
+    padding-top: 90px;
+    padding-left: 110px;
+}
+.schedule-schedule{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    font-size: 16px ;
+    background-color: white;
+    padding: 19px 40px;
+    border: none;
+    margin-left: 36rem;
+    margin-top: 130px;
+    letter-spacing: 1px;
+}
+.white-logo{
+    width: 300px;
+    height: 300px;
+}
+.white-white{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-left: 130px;
+}
+.white-white div ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-left: -50px;
+    
+}
+.white-white .white-ul{
+    
+    width: 450px;
+    margin-top: 100px;
+    
+}
+.white-white .white-ul li a{
+    color: white;
+    
+}
+.quick-quick{
+    width: 800px;
+    height: 50%;
+    display: flex;
+    
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 50px;
+}
+.quicklinks{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.paintersin{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+}
+.phonestroke{
+    width: 25px;
+    height: 25px;
+    margin-bottom: -7px;
+}
+.phonenumber{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: white;
+    
+}
+.copyright{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+    margin-top: -100px;
+    margin-left: 500px;
+    background-color: rgb(26,26,26);
+    
+}
+hr{
+    border-top: 5px dashed red;
+}
